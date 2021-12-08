@@ -1,37 +1,58 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 
 const CardContent = styled.div`
-  background-color: rgba(21, 18, 21,0.8);
-  padding: 1.5em 2em;
-  width: 55%;
+  /* background-color: rgba(21, 18, 21,0.8); */
+  /* background-image: linear-gradient(rgba(21,21,21,0.2),rgb(21,21,21)); */
+  backdrop-filter: blur(1em);
   text-align: justify;
-  font-weight: 500;
   box-shadow: 0em 0em 1em 0.5em rgba(0, 0, 0, 0.4);
-  margin-top: 2em;
   display: flex;
   flex-direction: column;
   color: rgb(226, 234, 255, 0.8);
-  min-width: 765px;
+  padding: 1em 0 2em;
+  max-width: 30em;
+  margin: 0 auto;
+  margin-bottom: 2em;
 
   h1 {
     font-size: 4em;
     font-weight: 100;
     font-style: italic;
-  }
+    padding: 2% 5% 2%;
+  };
 
   h4 {
     font-weight: 200;
     font-size: 1.5em;
-  }
+    padding: 2% 5% 2%;
+  };
 
   p {
-    padding: 1.5em 10em 1.5em 16em;
+    padding: 0.5% 10% 1.5em 16%;
     font-size: 0.85em;
-  }
+  };
 
   h5 {
     text-align: center;
+  };
+
+  .contact-container {
+    margin: 0.75em auto 0;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+  }
+
+  .contact-container a {
+    color: rgb(226, 234, 255, 0.8);
+  }
+
+  .contact-container a:hover {
+    color: rgb(226, 234, 255, 1);
+    transform: scale(1.1);
   }
 `
 
@@ -48,6 +69,13 @@ export default function WhoAmI() {
         Every day is a journey for me and I'm in progress to be the best I've ever been.
         </p>
       <h5>To more details!</h5>
+      <div className="contact-container">
+        <a target="_blank" href="https://www.linkedin.com/in/victorschlichting/" rel="noreferrer"><AiFillLinkedin /></a>
+        <a target="_blank"
+        href="https://github.com/VHBS" rel="noreferrer"><AiFillGithub /></a>
+        <a target="_blank"
+        href="https://www.instagram.com/vh_bs/" rel="noreferrer"><AiFillInstagram /></a>
+      </div>
     </CardContent>
   )
 }

@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   margin: 0;
   padding: 0;
   border: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* text-decoration: none; */
   }
 `
