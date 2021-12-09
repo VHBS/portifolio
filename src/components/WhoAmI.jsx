@@ -18,6 +18,7 @@ const CardContent = styled.div`
     font-weight: 100;
     font-size: 4em;
     font-style: italic;
+    text-align: start;
   }
 
   h2 {

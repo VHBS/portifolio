@@ -34,29 +34,28 @@ const Main = styled.main`
 
 .title-container {
   /* backdrop-filter: blur(0.25em); */
-  backdrop-filter: blur(1em);
+  backdrop-filter: blur(0.75em);
   background-color: rgba(150, 150, 150, 0.0);
   border: 0.12em solid rgba(255, 255, 255, 0.15);
-  /* border-radius: 0.3em; */
-  border-radius: 50%/100em;
+  border-radius: 25%/100em;
   display: flex;
   justify-content: center;
-  width: 35em;
+  width: 58em;
   box-shadow: 0em 0em 2em 1em rgba(0, 0, 0, 0.2);
-  margin: 13.5em auto;
+  margin: 5em auto;
   color: rgb(226, 234, 255, 0.8);
 };
 
 .firstName {
   margin-right: 1.25em;
   margin-top: -0.3em;
-  font-size: 5rem;
+  font-size: 10rem;
   font-weight: 200;
 };
 
 .lastName {
   margin-right: -1.25em;
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: 100;
   margin-top: -0.8em;
   margin-bottom: 0.5em;
@@ -69,8 +68,8 @@ const Main = styled.main`
   height: 4em;
   font-weight: 600;
   border-radius: 5em 5em 50em 50em;
-  margin-top: 15em;
-  margin-bottom: 4em;
+  margin-top: 10em;
+  margin-bottom: 2em;
   text-decoration: none;
 };
 
@@ -81,8 +80,13 @@ const Main = styled.main`
   align-items: center;
 };
 
+.sub-title {
+  font-size: 1.8em;
+}
+
 .mustache {
-  font-size: 12em;
+  /* font-size: 12em; */
+  font-size: 22rem;
   font-weight: 300;
 };
 
@@ -98,35 +102,47 @@ const Main = styled.main`
   border-radius: 50%/100em;
   display: flex;
   justify-content: center;
-  width: 20em;
+  width: 28em;
   box-shadow: 0em 0em 2em 1em rgba(0, 0, 0, 0.2);
-  margin: 13.5em auto;
+  margin: 10em auto;
   color: rgb(226, 234, 255, 0.8);
 };
 
 .firstName {
   margin-right: 1.25em;
   margin-top: -0.3em;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 200;
 };
 
 .lastName {
   margin-right: -1.25em;
-  font-size: 1rem;
+  font-size: 2.4rem;
   font-weight: 100;
   margin-top: -0.8em;
   margin-bottom: 0.5em;
 };
 
 .mustache {
-  font-size: 7em;
+  font-size: 10em;
   font-weight: 300;
 };
 
 .sub-title {
-  font-size: 0.5em;
+  font-size: 0.7em;
 }
+
+.more-container {
+  flex-direction: column;
+  align-items: center;
+  width: 5em;
+  height: 4em;
+  font-weight: 600;
+  border-radius: 5em 5em 50em 50em;
+  margin-top: 15em;
+  margin-bottom: 4em;
+  text-decoration: none;
+};
 };
 
 `;

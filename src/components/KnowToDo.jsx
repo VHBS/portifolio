@@ -12,7 +12,7 @@ const KnowContainer = styled.div`
   display: flex;
   flex-direction: column;
   color: rgb(226, 234, 255, 0.8);
-  padding: 2em 10% ;
+  padding: 2em 10% 1em;
   width: 80%;
   margin: 2em auto 0;
 
@@ -25,7 +25,8 @@ const KnowContainer = styled.div`
 
   h3 {
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
   }
 
   a {
@@ -38,13 +39,14 @@ const KnowContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-size: 1.3em;
   };
 
   .card-kows {
     padding: 1em;
     display: flex;
     h6 {
-      padding: 0 1em;
+      padding: 0 0.5em;
     }
   };
 
@@ -75,7 +77,9 @@ export default function KnowToDo() {
       <div className="content-container">
         <h1>{'<'}My Projects{' />'}</h1>
           <ul className="projects" id="projects">
-            <li>Online Store (Mercadolibre API) - Frontend study</li>
+            <a target="_blank" href="https://portifolio-online-store.vercel.app/" rel="noreferrer">
+              <li>Online Store (Mercadolibre API) - Frontend study</li>
+            </a>
             <li>Music Stream (iTunes API) - Frontend study</li>
             <li>Super Trunfo Cards - React study</li>
             <li>ToDo List - JavaScript study</li>
