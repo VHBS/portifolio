@@ -57,13 +57,13 @@ export default function WhoAmI() {
   return (
     <CardContent>
       <h1>{"<"}Who am I? /{">"}</h1>
-      <p>I’m a Full Stack Web Development Student, 
+      <p>I'm a Full Stack Web Development Student, 
         that history started at Trybe a few months ago.
-        Nowadays I’m living in Praia Grande / SP - Brazil.
+        Nowadays I'm living in Praia Grande / SP - Brazil.
       </p>
-      <h2>What is my objective?</h2>
+      <h2>What is my goal?</h2>
         <p>At the moment my priority is to study and absorb as much knowledge as possible.
-        Every day is a journey for me and I'm in progress to be the best I've ever been.
+        Every day is a journey for me and I'm in process to be the best I've ever been.
         </p>
       <div className="contact-container">
       <h3>To more details!</h3>
