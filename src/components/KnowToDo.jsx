@@ -77,10 +77,12 @@ export default function KnowToDo() {
       <div className="content-container">
         <h1>{'<'}My Projects{' />'}</h1>
           <ul className="projects" id="projects">
-            <a target="_blank" href="https://portifolio-online-store.vercel.app/" rel="noreferrer">
+            <a target="_blank" href="https://vhbs-online-store.vercel.app/" rel="noreferrer">
               <li>Online Store (Mercadolibre API) - Frontend study</li>
             </a>
-            <li>Music Stream (iTunes API) - Frontend study</li>
+            <a target="_blank" href="https://vhbs-music-stream.vercel.app/" rel="noreferrer">
+              <li>Music Stream (iTunes API) - Frontend study</li>
+            </a>
             <li>Super Trunfo Cards - React study</li>
             <li>ToDo List - JavaScript study</li>
           </ul>
